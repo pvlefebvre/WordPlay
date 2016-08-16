@@ -12,6 +12,9 @@
 		E67F32B91D613EEB00382C21 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E67F32B71D613EEB00382C21 /* Main.storyboard */; };
 		E67F32BB1D613EEB00382C21 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E67F32BA1D613EEB00382C21 /* Assets.xcassets */; };
 		E67F32BE1D613EEB00382C21 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E67F32BC1D613EEB00382C21 /* LaunchScreen.storyboard */; };
+		E67F32C61D62BD6900382C21 /* EnterNameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E67F32C51D62BD6900382C21 /* EnterNameViewController.swift */; };
+		E67F32C81D62BEAB00382C21 /* EnterAdjectiveViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E67F32C71D62BEAB00382C21 /* EnterAdjectiveViewController.swift */; };
+		E67F32CA1D62BF3100382C21 /* ResultsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E67F32C91D62BF3100382C21 /* ResultsViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +25,9 @@
 		E67F32BA1D613EEB00382C21 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E67F32BD1D613EEB00382C21 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E67F32BF1D613EEB00382C21 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E67F32C51D62BD6900382C21 /* EnterNameViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EnterNameViewController.swift; sourceTree = "<group>"; };
+		E67F32C71D62BEAB00382C21 /* EnterAdjectiveViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EnterAdjectiveViewController.swift; sourceTree = "<group>"; };
+		E67F32C91D62BF3100382C21 /* ResultsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ResultsViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +63,9 @@
 				E67F32B31D613EEB00382C21 /* AppDelegate.swift */,
 				E67F32B51D613EEB00382C21 /* ViewController.swift */,
 				E67F32B71D613EEB00382C21 /* Main.storyboard */,
+				E67F32C51D62BD6900382C21 /* EnterNameViewController.swift */,
+				E67F32C71D62BEAB00382C21 /* EnterAdjectiveViewController.swift */,
+				E67F32C91D62BF3100382C21 /* ResultsViewController.swift */,
 				E67F32BA1D613EEB00382C21 /* Assets.xcassets */,
 				E67F32BC1D613EEB00382C21 /* LaunchScreen.storyboard */,
 				E67F32BF1D613EEB00382C21 /* Info.plist */,
@@ -135,7 +144,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E67F32C61D62BD6900382C21 /* EnterNameViewController.swift in Sources */,
+				E67F32C81D62BEAB00382C21 /* EnterAdjectiveViewController.swift in Sources */,
 				E67F32B61D613EEB00382C21 /* ViewController.swift in Sources */,
+				E67F32CA1D62BF3100382C21 /* ResultsViewController.swift in Sources */,
 				E67F32B41D613EEB00382C21 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
